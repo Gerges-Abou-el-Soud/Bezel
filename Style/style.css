@@ -1,0 +1,247 @@
+::selection {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.font-header {
+    font-size: 6rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+
+
+.btn-hover:hover {
+    background-color: #fff;
+    color: #1f1f1f !important;
+}
+
+.typing::after{
+    content: "|";
+    color: #00D5EE;
+    animation-name: typing;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+    0%{ content: "|"; }
+    2%{ content: "S|"; }
+    4%{ content: "So|"; }
+    6%{ content: "Sof|"; }
+    8%{ content: "Soft|"; }
+    10%{ content: "SoftW|"; }
+    12%{ content: "SoftWa|"; }
+    14%{ content: "SoftWar|"; }
+    16%{ content: "SoftWare|"; }
+    18%{ content: "SoftWares|"; }
+    20%{ content: "SoftWare|"; }
+    22%{ content: "SoftWar|"; }
+    24%{ content: "SoftWa|"; }
+    26%{ content: "SoftW|"; }
+    28%{ content: "Soft|"; }
+    30%{ content: "Sof|"; }
+    32%{ content: "So|"; }
+    34%{ content: "S|"; }
+    36%{ content: "|"; }
+    38%{ content: "a|"; }
+    40%{ content: "ap|"; }
+    42%{ content: "app|"; }
+    44%{ content: "apps|"; }
+    46%{ content: "app|"; }
+    48%{ content: "ap|"; }
+    50%{ content: "a|"; }
+    52%{ content: "|"; }
+    54%{ content: "w|"; }
+    56%{ content: "we|"; }
+    58%{ content: "web|"; }
+    60%{ content: "webs|"; }
+    62%{ content: "websi|"; }
+    64%{ content: "websit|"; }
+    68%{ content: "website|"; }
+    70%{ content: "websites|"; }
+    72%{ content: "website|"; }
+    74%{ content: "websit|"; }
+    76%{ content: "websi|"; }
+    78%{ content: "webs|"; }
+    80%{ content: "web|"; }
+    85%{ content: "we|"; }
+    90%{ content: "w|"; }
+    100%{ content: "|"; }
+}
+
+.title h6 {
+    font-size: 0.9rem;
+}
+
+.title > p {
+    color: #9e9d9d;
+}
+.btn-who {
+    border-radius: 0px;
+    font-size: 0.7rem;
+    padding: 20px 40px;
+    transition: background-color 1s , color 1s;
+}
+
+.btn-who:focus{
+    box-shadow: none;
+}
+.btn-who:hover{
+    background-color: #212121;
+    color: #fff;
+}
+
+.info-team  {
+    transition: top 1s , opacity 0.8s ;
+    background-color: rgba(0, 195, 218, 0.9);;
+}
+
+.image-team:hover .info-team {
+    top: 0 !important;
+    opacity: 1 !important;
+}
+
+.font-s1 {
+    font-size: 0.9rem;
+}
+
+.font-s3{
+    font-size: 0.7rem;
+}
+
+.font-s4 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.font-c{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #F2F2F2;
+}
+
+.font-c-w {
+    font-weight: 700;
+}
+
+
+.bg-brown {
+    background-color:#636363 ;
+}
+
+.font-w{
+    font-size: 5rem;
+    font-weight: 900;
+    color: #6C6C6C;
+}
+
+.font-w-w{
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.list-ser{
+    list-style-type: none;
+}
+
+
+#work{
+    background-color: #F7F7F7;
+}
+
+.price span {
+    font-size: 18px;
+    vertical-align: top;
+}
+
+.price span::after{
+    content: '';
+    background-color: #1f1f1f;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+}
+.price h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    position: relative;
+    
+}
+
+
+.pricing-head h4{
+    font-size: 1.1rem;
+}
+
+.pricing-table{
+    background-color: #fff;
+    box-shadow: 0 0 40px rgba(0, 0, 0 ,0.1);
+    transition: box-shadow 0.5s;
+}
+
+.pricing-table:hover{
+    box-shadow: 0 0 40px rgba(0, 0, 0 ,0.2);
+}
+
+.lg-slide{
+    padding: 70px  !important;
+}
+
+.btn-aqua{
+    background-color: #00D5EE;
+    color: #fff;
+}
+
+.btn-aqua:hover{
+    color: #fff !important;
+    background-color: #01e5ff;
+}
+
+.lg-number{
+    color: #00D5EE !important;
+}
+
+
+
+.testimonial-img {
+    width: 100px;
+    transform: translateY(50%);
+}
+
+.testimonial-text{
+    background-color:#fff ;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0 ,0.2);
+}
+
+
+#HAPPY-CUSTOMERS {
+    background-color: #F7F7F7;
+}
+
+
+.data-in{
+    font-size: 15px;
+    border: 2px solid #eee;
+    border-radius: 0 ;
+}
+
+
+.data-in:focus
+{
+    border-color: #1f1f1f;
+    
+}
+
+

@@ -1,0 +1,19 @@
+
+@media only screen and (max-width: 600px) {
+    .font-header{
+        font-size: 2rem;
+    }
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .font-header{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .font-header{
+        font-size: 2.5rem;
+    }
+}
